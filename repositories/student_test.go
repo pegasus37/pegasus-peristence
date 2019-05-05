@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pegasus37/pegasus-peristence/repositories"
+	"github.com/pegasus37/pegasus-persistence/repositories"
 	"github.com/stretchr/testify/assert"
 )
 

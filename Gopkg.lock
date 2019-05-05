@@ -10,14 +10,6 @@
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:d5f97fc268267ec1b61c3453058c738246fc3e746f14b1ae25161513b7367b0c"
-  name = "github.com/gorilla/mux"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "c5c6c98bc25355028a63748a498942a6398ccd22"
-  version = "v1.7.1"
-
-[[projects]]
   digest = "1:f532b531849c30bca5126df7d033bd7af86af81e218e9a096f19cc69d3c2ed85"
   name = "github.com/jinzhu/gorm"
   packages = ["dialects/postgres"]
@@ -39,14 +31,6 @@
   version = "v1.1.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:4b9d61b38bdd3094df8c6926bf78ba872bbcb8fd42b887caeadf523b48cabf4b"
-  name = "github.com/pegasus37/pegasus-peristence"
-  packages = ["repositories"]
-  pruneopts = "UT"
-  revision = "5dbd59d01c9fd0473826263762adbcc5dba3be37"
-
-[[projects]]
   digest = "1:0028cb19b2e4c3112225cd871870f2d9cf49b9b4276531f03438a88e94be86fe"
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
@@ -66,9 +50,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/gorilla/mux",
     "github.com/jinzhu/gorm/dialects/postgres",
-    "github.com/pegasus37/pegasus-peristence/repositories",
     "github.com/stretchr/testify/assert",
   ]
   solver-name = "gps-cdcl"
